@@ -22,7 +22,7 @@ typedef struct PERSONAL_INFO{
 typedef struct PHONE_BOOK_ENTRY {
     char lastName[MAX_LAST_NAME_SIZE];
     info *pInfo;
-    struct __PHONE_BOOK_ENTRY *pNext;
+    struct PHONE_BOOK_ENTRY *pNext;
 } entry;
 
 entry *findName(char lastname[], entry *pHead);
