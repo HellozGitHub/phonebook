@@ -5,7 +5,7 @@
 
 /* TODO: After modifying the original version, uncomment the following
  * line to set OPT properly */
-// #define OPT 1
+#define OPT 1
 
 typedef struct PERSONAL_INFO{
     char firstName[16];
